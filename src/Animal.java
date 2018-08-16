@@ -1,5 +1,5 @@
 
-public abstract class Animal {
-abstract String makeNoise();
+public abstract class Animal  {
+abstract void makeNoise();
 abstract String nameMeat();
 }

@@ -2,15 +2,16 @@
 public class Donkey extends Animal{
 
 	@Override
-	String makeNoise() {
+	void makeNoise() {
+		System.out.println("He-Ha");
 		// TODO Auto-generated method stub
-		return null;
+		
 	}
 
 	@Override
 	String nameMeat() {
 		// TODO Auto-generated method stub
-		return null;
+		return "donkey meat";
 	}
 
 }

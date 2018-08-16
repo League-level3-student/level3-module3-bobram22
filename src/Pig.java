@@ -2,15 +2,15 @@
 public class Pig extends Animal{
 
 	@Override
-	String makeNoise() {
+	void makeNoise() {
 		// TODO Auto-generated method stub
-		return null;
+	System.out.println("oink");
 	}
 
 	@Override
 	String nameMeat() {
 		// TODO Auto-generated method stub
-		return null;
+		return "pork";
 	}
 
 }

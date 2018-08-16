@@ -2,15 +2,15 @@
 public class Cow extends Animal{
 
 	@Override
-	String makeNoise() {
+	void makeNoise() {
+		System.out.println("moo");
 		// TODO Auto-generated method stub
-		return null;
-	}
+		}
 
 	@Override
 	String nameMeat() {
 		// TODO Auto-generated method stub
-		return null;
+		return "beef";
 	}
 
 }
